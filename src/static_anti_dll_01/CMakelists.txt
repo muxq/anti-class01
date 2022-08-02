@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.11)
+project(
+  static_anti_dll_01
+  VERSION 1.0.0
+  DESCRIPTION "静态逆向分析dll")
+
+add_library(${PROJECT_NAME} SHARED main.cpp)

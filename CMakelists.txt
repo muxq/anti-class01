@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.11)
+project(class01)
+
+add_subdirectory(src/static_anti_dll_01)
+add_subdirectory(src/dynamic_anti_01)
